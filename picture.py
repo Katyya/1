@@ -73,9 +73,10 @@ brushColor(153, 133, 120)
 p1=polygon([(365, 200), (450, 325), (390, 325)])
 p2=polygon([(365, 450), (450, 325), (390, 325)])
 """парус"""
-board=(a,b)
+
 def update():
     if 700 >= xCoord(a):
+        """движетмя на х5 """
         moveObjectBy(a, 5, 0)
         moveObjectBy(b, 5, 0)
         moveObjectBy(с, 5, 0)
@@ -88,7 +89,6 @@ onTimer(update, 50)
 sun()
 clouds(220,150,30)
 clouds(470,100,40)
-
 sun_unbrella()
 
 run()
