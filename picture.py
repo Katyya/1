@@ -6,6 +6,7 @@ rectangle(0,0,1000,400)
 """Sky"""
 brushColor(0,0,255)
 rectangle(0,400,1000,650)
+"""Oceon"""
 brushColor(202,208,101)
 rectangle(0,650,1000,900)
 penColor(202,208,101)
